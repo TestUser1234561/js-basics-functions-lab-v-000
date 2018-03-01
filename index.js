@@ -28,7 +28,7 @@ function calculatesFarePrice(s, d) {
   if(dis > 400 && dis < 2000) {
     return dis * 0.02
   }
-  if(dis > 2000) {
+  if(dis > 2000 || dis < 2500) {
     return 25
   }
   if(dis >= 2500) {
