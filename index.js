@@ -32,6 +32,6 @@ function calculatesFarePrice(s, d) {
     return 25
   }
   if(dis > 2500) {
-    return 25
+    return 'cannot travel that far'
   }
 }
