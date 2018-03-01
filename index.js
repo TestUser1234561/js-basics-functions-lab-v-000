@@ -22,7 +22,9 @@ function distanceTravelledInFeet(a, b) {
 
 function calculatesFarePrice(s, d) {
   let dis = distanceTravelledInFeet(s, d)
-
+  if(dis < 400) {
+    return 0
+  }
   if(dis > 400 && dis < 2000) {
     return dis * 0.02
   }
