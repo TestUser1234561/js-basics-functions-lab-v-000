@@ -19,3 +19,7 @@ function distanceTravelledInFeet(a, b) {
     return (b - a) * 264
   }
 }
+
+function calculatesFarePrice(s, d) {
+
+}
