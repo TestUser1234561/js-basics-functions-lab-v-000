@@ -10,3 +10,8 @@ function distanceFromHqInBlocks(n) {
 function distanceFromHqInFeet(n) {
   return distanceFromHqInBlocks(n) * 264
 }
+
+
+function distanceTravelledInFeet(a, b) {
+  
+}
